@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+html,body{
+    font-family: "Inter",sans-serif;
+    font-size: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 1.4rem;
+}
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+}
+nav{
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+
+}
+nav ul li{
+    font-size: 2.5rem;
+}
+nav ul li:hover{
+    border-bottom: 2px solid black;
+}
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+/* Hero section */
+#hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+
+}
+.hero_content h1{
+    font-size: 11rem;
+    line-height: 1.2;
+    font-weight: 300;
+}
+
+.hero_content h4{
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 250;
+}
+/* long card section */
+.h_card{
+    display: flex;
+    margin: 2rem 0;
+    align-items: center;
+}
+
+@media(max-width: 350px){
+    nav{
+        padding: 1rem;
+        /* max-width: 350px; */
+        /* margin: 0 auto; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 11rem;
+       
+    }
+    #hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin: 1rem auto; */
+        padding-left: 15rem;
+        padding-top: 2rem;
+        
+    
+    }
+    .h_card{
+        display: flex;
+        flex-direction: column;
+        margin: 2rem ;
+        align-items: center;
+    }
+    
+}
+span{
+    color: aquamarine;
+}
+.hero_image img{
+    height: 330px;
+    width: 400px;
+    border-radius: 2rem;
+}
+.long img{
+    height: 300px;
+    width: 450px;
+    border-radius: 3rem;
+}
