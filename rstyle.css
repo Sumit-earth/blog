@@ -71,7 +71,7 @@ main{
     align-items: center;
 }
 
-@media(max-width: 350px){
+@media(max-width: 450px){
     nav{
         padding: 1rem;
         /* max-width: 350px; */
