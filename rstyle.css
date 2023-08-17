@@ -462,7 +462,7 @@ footer ul li{
     .read_btn{
         list-style: none;
         all: unset;
-        font-weight: 300;
+        font-weight:500 ;
         /* border-bottom: 1px solid transparent; */
     
     }
