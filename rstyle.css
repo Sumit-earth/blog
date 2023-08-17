@@ -668,7 +668,7 @@ footer ul li{
     }
     .long img{
         height: 450px;
-        width: 90vw;
+        width: 97vw;
         border-radius: 3rem;
     }
     /* All images */
@@ -686,6 +686,7 @@ footer ul li{
         height: 500px;
         width: 350px;
         border-radius: 2rem;
+        margin-left: 15px;
     }
     .post1_img img{
         height: 80vh;
