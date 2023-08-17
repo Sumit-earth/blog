@@ -121,7 +121,7 @@ main{
 
 }
 .read_btn:hover{
-    border-bottom: 1px solid rgb(25, 215, 203);
+    border-bottom: 1px solid #780000;
 }
 .v_card{
     display: flex;
@@ -467,7 +467,7 @@ footer ul li{
     
     }
     .read_btn:hover{
-        border-bottom: 1px solid rgb(25, 215, 203);
+        border-bottom: 1px solid #780000;
     }
     .v_card{
         display: flex;
